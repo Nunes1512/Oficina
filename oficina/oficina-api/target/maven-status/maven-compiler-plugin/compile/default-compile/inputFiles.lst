@@ -1,0 +1,13 @@
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\config\AdminMasterInitializer.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\config\JwtAuthenticationFilter.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\config\SecurityConfig.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\controller\AuthController.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\controller\TesteController.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\dto\LoginRequest.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\dto\LoginResponse.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\model\Role.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\model\Usuario.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\OficinaApiApplication.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\repository\UsuarioRepository.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\service\JwtService.java
+C:\Users\bruno\OneDrive\Área de Trabalho\oficina\oficina-api\src\main\java\com\oficina\oficina_api\service\UsuarioService.java
