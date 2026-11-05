@@ -1,0 +1,17 @@
+CORREÇÃO DE AUTORIZAÇÃO JWT - GET /gerente/clientes
+
+O que foi ajustado:
+- UsuarioService agora cria a autoridade ROLE_ explicitamente.
+- JwtAuthenticationFilter normaliza o cabeçalho para evitar falha quando o token chega como Bearer Bearer <token> ou entre aspas.
+
+Como testar (perfil H2):
+1. Abra o terminal na pasta backend (onde está pom.xml).
+2. Execute: mvn clean spring-boot:run "-Dspring-boot.run.profiles=test"
+3. No Swagger: http://localhost:8080/swagger-ui/index.html
+4. Execute POST /auth/login com:
+   {"login":"admin@oficina.local","senha":"12345"}
+5. Copie o campo token da resposta. No Authorize, cole somente o JWT, sem a palavra Bearer.
+6. Execute GET /gerente/clientes.
+
+Observação importante:
+Este ambiente de preparação não possui Maven instalado, então não foi possível executar o build nem fazer uma chamada HTTP real aqui. A correção foi aplicada ao código-fonte, mas o teste final precisa ser feito no computador com Java 21 e Maven.
